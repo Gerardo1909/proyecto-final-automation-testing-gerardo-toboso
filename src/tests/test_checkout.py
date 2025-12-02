@@ -23,7 +23,6 @@ CHECKOUT_CSV_PATH = Path(__file__).parent.parent / "data" / "checkout.csv"
 CASOS_CHECKOUT = CSVReader(str(CHECKOUT_CSV_PATH)).read()
 
 
-@pytest.mark.smoke
 @pytest.mark.ui
 def test_checkout_should_display_correct_title_when_user_navigates_to_checkout(
     selenium_driver,
@@ -126,7 +125,6 @@ def test_checkout_should_return_to_cart_when_cancel_button_clicked(selenium_driv
     ui_logger.info("Test completado exitosamente")
 
 
-@pytest.mark.smoke
 @pytest.mark.ui
 def test_checkout_overview_should_display_payment_and_shipping_info(selenium_driver):
     """
@@ -194,7 +192,6 @@ def test_checkout_overview_should_display_added_product(
     ui_logger.info(f"Test completado exitosamente - {nombre_producto}")
 
 
-@pytest.mark.smoke
 @pytest.mark.ui
 def test_checkout_overview_should_display_multiple_products_when_multiple_added(
     selenium_driver,
@@ -232,7 +229,6 @@ def test_checkout_overview_should_display_multiple_products_when_multiple_added(
     ui_logger.info("Test completado exitosamente")
 
 
-@pytest.mark.smoke
 @pytest.mark.ui
 def test_checkout_should_complete_when_finish_button_clicked(selenium_driver):
     """
