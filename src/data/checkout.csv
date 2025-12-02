@@ -1,0 +1,8 @@
+first_name,last_name,postal_code,es_valido,descripcion
+John,Doe,12345,True,Datos completos y validos
+Jane,Smith,54321,True,Otro conjunto de datos validos
+,Doe,12345,False,First name vacio
+John,,12345,False,Last name vacio
+John,Doe,,False,Postal code vacio
+,,,False,Todos los campos vacios
+Juan,García,28001,True,Datos con caracteres especiales
