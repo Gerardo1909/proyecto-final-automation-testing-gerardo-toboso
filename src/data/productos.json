@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Sauce Labs Backpack",
+    "xpath_add_button": "//button[@data-test='add-to-cart-sauce-labs-backpack']"
+  },
+  {
+    "nombre": "Sauce Labs Bike Light",
+    "xpath_add_button": "//button[@data-test='add-to-cart-sauce-labs-bike-light']"
+  },
+  {
+    "nombre": "Sauce Labs Bolt T-Shirt",
+    "xpath_add_button": "//button[@data-test='add-to-cart-sauce-labs-bolt-t-shirt']"
+  },
+  {
+    "nombre": "Sauce Labs Fleece Jacket",
+    "xpath_add_button": "//button[@data-test='add-to-cart-sauce-labs-fleece-jacket']"
+  }
+]
