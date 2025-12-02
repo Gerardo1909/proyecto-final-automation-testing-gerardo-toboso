@@ -1,0 +1,14 @@
+[project]
+name = "proyecto-final-automation-testing-gerardo-toboso"
+version = "0.1.0"
+description = "Entrega final de proyecto integrador para el curso QA automation."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pytest>=8.4.2",
+    "pytest-check>=2.6.0",
+    "pytest-html==3.2.0",
+    "pytest-timeout>=2.4.0",
+    "requests>=2.32.5",
+    "selenium>=4.35.0",
+]
