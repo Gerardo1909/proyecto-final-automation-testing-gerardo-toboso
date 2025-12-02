@@ -59,9 +59,11 @@ class ShoppingCartPage:
             raise IndexError("Índice de artículo fuera de rango.")
         return self
 
-    def click_checkout(self):
+    def go_to_checkout(self):
         """
-        Hace clic en el botón de checkout para proceder con la compra.
+        Navega a la página de checkout
         """
         self.driver.find_element(*self._CHECKOUT_BUTTON).click()
-        return self
+        from pages.checkout_page import CheckoutPage
+
+        return CheckoutPage(self.driver)
