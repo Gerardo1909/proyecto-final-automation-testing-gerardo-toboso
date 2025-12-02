@@ -103,8 +103,6 @@ source .venv/bin/activate  # En Mac/Linux
 
 > Asegúrate de tener activado el entorno virtual que creaste anteriormente
 
-### Ejecutar todas las pruebas (Pytest + Behave)
-
 Ubicado en el directorio de raíz del proyecto, ejecuta:
 
 ```bash
